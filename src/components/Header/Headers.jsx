@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { Container, Row, Button } from "reactstrap";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo2.jpeg";
 import "./Header.css";
 
 const nav_link = [
@@ -9,14 +9,11 @@ const nav_link = [
     path: "/home",
     display: "TravelNotes",
   },
-  {
-    path: "/about",
-    display: "About",
-  },
-  {
-    path: "#tours",
-    display: "Testimonials",
-  },
+  
+  // {
+  //   path: "/tours",
+  //   display: "Testimonials",
+  // },
 ];
 
 const Headers = () => {
