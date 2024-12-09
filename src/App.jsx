@@ -5,7 +5,6 @@ import Login from "./pages/Login/Login";
 import SignUp from "./pages/SignUp/SignUp";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import './App.css';
-import TouristAttractions from "./pages/Explore/Explore";
 
 const routes = (
   <Router>
