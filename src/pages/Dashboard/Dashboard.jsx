@@ -129,7 +129,7 @@ const Dashboard = () => {
               <Subtitle subtitle={"Fan Page"} />
               <h2 className="testimonial__title">What our Fan says about us</h2>
             </Col>
-            <Col lg="12">
+            <Col lg="12" id="tours">
               <Testimonial />
             </Col>
           </Row>

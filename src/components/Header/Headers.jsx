@@ -7,15 +7,15 @@ import "./Header.css";
 const nav_link = [
   {
     path: "/home",
-    display: "Home",
+    display: "TravelNotes",
   },
   {
     path: "/about",
     display: "About",
   },
   {
-    path: "/tours",
-    display: "Tours",
+    path: "#tours",
+    display: "Testimonials",
   },
 ];
 
