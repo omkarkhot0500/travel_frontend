@@ -7,7 +7,7 @@ import heroVideo from "../../assets/images/hero.mp4";
 import worldImg from "../../assets/images/world.png";
 import NewsLetter from "../../shared/NewsLetter";
 import Subtitle from "../../shared/Subtitle";
-import Testimonial from "../../Components/Testimonial/Testimonial";
+import Testimonial from "../../components/Testimonial/Testimonial";
 import experience from "../../assets/images/experience.png";
 import MasonryImagesGallery from "../../components/Image-gallery/MasonryImagesGallery";
 import { ServiceList } from "../../services/ServiceList";
