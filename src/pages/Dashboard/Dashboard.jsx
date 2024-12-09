@@ -5,7 +5,6 @@ import heroImg from "../../assets/images/hero-img01.jpg";
 import heroImg02 from "../../assets/images/hero-img02.jpg";
 import heroVideo from "../../assets/images/hero.mp4";
 import worldImg from "../../assets/images/world.png";
-import NewsLetter from "../../shared/NewsLetter";
 import Subtitle from "../../shared/Subtitle";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import experience from "../../assets/images/experience.png";
@@ -136,7 +135,6 @@ const Dashboard = () => {
           </Row>
         </Container>
       </section>
-      <NewsLetter />
       <Footers />
     </>
   );
