@@ -9,7 +9,7 @@
       className='text-xs outline-none h-[36px] bg-[#faa935] rounded-full font-Source text-white tracking-wider uppercase w-[100px] flex items-center justify-center'
       onClick={onLogout}
     >
-      Logout
+      {userInfo?'Logout':'Login'}
     </button>
   </div>
 </div>
