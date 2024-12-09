@@ -7,18 +7,18 @@ import customizationImg from '../assets/images/customization.png'
 const serviceData=[
     {
         imgUrl :weatherImg,
-        title :"Calculate Weather",
-        desc : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, unde."
+        title :"Plan your travels",
+        desc : "Start your adventure with seamless planning. Enjoy stress-free trips and unforgettable experiences."
       },
       {
         imgUrl :guideImg,
         title :"Best Tour to Guide",
-        desc : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, unde."
+        desc : "Discover the most trusted tour guides for an enriched journey filled with insights and local flair."
       },
       {
         imgUrl :customizationImg,
         title :"Customization",
-        desc : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, unde."
+        desc : "Tailor your travel itinerary to match your unique preferences and create perfect moments."
       },
 ]
 export const ServiceList = () => {

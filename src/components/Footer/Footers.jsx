@@ -18,20 +18,6 @@ const quick__link = [
     display: "Tours",
   },
 ];
-const quick__link2 = [
-  {
-    path: "/gallery",
-    display: "Gallery",
-  },
-  {
-    path: "/login",
-    display: "Login",
-  },
-  {
-    path: "/register",
-    display: "Register",
-  },
-];
 
 const Footers = () => {
   const year = new Date().getFullYear();
@@ -43,8 +29,7 @@ const Footers = () => {
             <div className="logo">
               <img src={logo} alt="loading..." />
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                ipsam commodi perferendis!
+              Exploring new places brings joy, adventure, and unforgettable experiences, every journey enriches our lives with unique stories and connections. Embrace the journey, discover new horizons, and make memories that last a lifetime.!
               </p>
               <div className="social__links d-flex align-items-center gap-4">
                 <span>
@@ -75,19 +60,6 @@ const Footers = () => {
 
             <ListGroup className="footer__quick-links">
               {quick__link.map((item, index) => {
-                return (
-                  <ListGroupItem key={index} className="ps-0 border-0">
-                    <Link to={item.path}>{item.display}</Link>
-                  </ListGroupItem>
-                );
-              })}
-            </ListGroup>
-          </Col>
-          <Col lg="3">
-            <h5 className="footer__link-title">Quick Link</h5>
-
-            <ListGroup className="footer__quick-links">
-              {quick__link2.map((item, index) => {
                 return (
                   <ListGroupItem key={index} className="ps-0 border-0">
                     <Link to={item.path}>{item.display}</Link>
@@ -130,8 +102,8 @@ const Footers = () => {
           </Col>
           <Col lg="12" className="text-center pt-5">
             <p className="copyright">
-              Copyright {year}, design and develop by Ritika Verma. All rights
-              are reserved.
+              Copyright {year}, design and develop by PointBreak Team. All
+              rights are reserved.
             </p>
           </Col>
         </Row>
