@@ -39,7 +39,7 @@ const Navbar = ({ userInfo, onSearchNote, handleClearSearch }) => {
       />
       <div className="flex items-center justify-center gap-4">
         <p
-          onClick={() => navigate("/dashboard")}
+          onClick={() => navigate("/")}
           className="cursor-pointer text-slate-800 hover:text-[#f18f04]"
         >
           Dashboard
